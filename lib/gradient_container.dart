@@ -1,4 +1,3 @@
-import 'package:first_app/style_text.dart';
 import 'package:flutter/material.dart';
 
 const startAligment = Alignment.topLeft;
