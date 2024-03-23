@@ -22,10 +22,15 @@ class GradientContainer extends StatelessWidget {
       ),
       child: Center(
           child: Column(
+        mainAxisAlignment:
+            MainAxisAlignment.center, // Centers the column vertically
         children: [
-          Image.asset(
-            "assets/dice-1.png",
-            width: 200,
+          Center(
+            // Centers the image horizontally
+            child: Image.asset(
+              "assets/dice-1.png",
+              width: 200,
+            ),
           ),
           TextButton(onPressed: rolldice, child: const Text("Roll dice"))
         ],
